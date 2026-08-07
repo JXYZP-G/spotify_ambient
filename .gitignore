@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# Home Assistant
+.storage/
+tts/
+deps/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Cache
+.cache/
+
+# Logs
+*.log

@@ -1,19 +1,34 @@
 # Spotify Ambient
 
-A Home Assistant custom integration that synchronizes your Philips Hue Entertainment Area with Spotify album artwork.
+Synchronize your Philips Hue Entertainment Area with Spotify album artwork.
 
 ## Features
 
-- 🎵 Detect currently playing Spotify track
-- 🎨 Extract dominant album colors
-- 💡 Sync Hue Entertainment Areas
-- 🌈 Smooth transitions
-- ⚡ Intelligent polling
-- 💾 Artwork caching
+- 🎵 Spotify OAuth
+- 🎨 Album artwork color extraction
+- 💡 Hue Play Bars
+- 🌈 Hue Gradient Strips
+- ⚡ Adaptive polling
+- 💾 Artwork cache
 
-## Planned
+## Installation
 
-- Mood mode
-- Genre mode
-- Beat reactive mode
-- AI mood detection
+### HACS
+
+(Add repository)
+
+### Manual
+
+Copy
+
+/custom_components/spotify_ambient
+
+into
+
+/config/custom_components/
+
+Restart Home Assistant.
+
+## Screenshots
+
+...
