@@ -1,0 +1,13 @@
+{
+  "domain": "spotify_ambient",
+  "name": "Spotify Ambient",
+  "version": "0.1.0",
+  "documentation": "https://github.com/JahdenPedro/spotify-ambient",
+  "issue_tracker": "https://github.com/JahdenPedro/spotify-ambient/issues",
+  "codeowners": ["@JahdenPedro"],
+  "config_flow": true,
+  "dependencies": ["application_credentials"],
+  "after_dependencies": ["hue"],
+  "iot_class": "cloud_polling",
+  "requirements": ["Pillow>=11.3.0"]
+}

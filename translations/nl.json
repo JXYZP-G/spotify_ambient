@@ -1,0 +1,40 @@
+{
+  "title": "Spotify Ambient",
+  "application_credentials": {
+    "description": "Maak een app in het [Spotify Developer Dashboard]({console_url}). Voeg `{redirect_uri}` exact toe als redirect-URI en vul daarna de Client ID en Client Secret in."
+  },
+  "config": {
+    "abort": {
+      "already_configured": "Dit Spotify-account is al geconfigureerd.",
+      "missing_configuration": "De applicatiegegevens zijn nog niet geconfigureerd.",
+      "missing_credentials": "Voeg eerst Spotify Ambient-applicatiegegevens toe.",
+      "oauth_implementation_unavailable": "De OAuth-implementatie is niet beschikbaar."
+    },
+    "step": {
+      "pick_implementation": {
+        "title": "Kies applicatiegegevens"
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Spotify Ambient-verlichting",
+        "description": "Koppel je Hue Play Bars, ledstrips en andere kleurlampen aan de kleuren uit de albumhoes.",
+        "data": {
+          "primary_lights": "Lampen voor primaire kleur",
+          "secondary_lights": "Lampen voor secundaire kleur",
+          "accent_lights": "Lampen voor accentkleur",
+          "brightness": "Helderheid",
+          "transition": "Overgangstijd",
+          "enabled": "Spotify-verlichting inschakelen"
+        }
+      }
+    }
+  },
+  "exceptions": {
+    "oauth2_implementation_unavailable": {
+      "message": "De OAuth-implementatie is niet beschikbaar."
+    }
+  }
+}

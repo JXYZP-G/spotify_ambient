@@ -1,0 +1,40 @@
+{
+  "title": "Spotify Ambient",
+  "application_credentials": {
+    "description": "Create an app in the [Spotify Developer Dashboard]({console_url}). Add `{redirect_uri}` as an exact redirect URI, then enter the Client ID and Client Secret below."
+  },
+  "config": {
+    "abort": {
+      "already_configured": "This Spotify account is already configured.",
+      "missing_configuration": "Application credentials have not been configured.",
+      "missing_credentials": "Add Spotify Ambient application credentials first.",
+      "oauth_implementation_unavailable": "The OAuth implementation is unavailable."
+    },
+    "step": {
+      "pick_implementation": {
+        "title": "Choose credentials"
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Spotify Ambient lighting",
+        "description": "Assign your Hue Play Bars, LED strips, and other color lights to palette roles.",
+        "data": {
+          "primary_lights": "Primary-color lights",
+          "secondary_lights": "Secondary-color lights",
+          "accent_lights": "Accent-color lights",
+          "brightness": "Brightness",
+          "transition": "Transition time",
+          "enabled": "Enable Spotify lighting"
+        }
+      }
+    }
+  },
+  "exceptions": {
+    "oauth2_implementation_unavailable": {
+      "message": "The OAuth implementation is unavailable."
+    }
+  }
+}
