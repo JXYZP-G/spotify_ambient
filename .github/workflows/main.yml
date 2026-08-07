@@ -1,14 +1,12 @@
 - name: HACS Action
   # You may pin to the exact commit or the version.
-  # uses: hacs/action@d556e736723344f83838d08488c983a15381059a
-  uses: hacs/action@22.5.0
-  with:
-    # A space seperated list of ignored checks, for valid entries see README.md
-    ignore: # optional, default is 
+  # uses: hacs/action@d556e736723344f83838d08488c983a15381059
+   uses: hacs/action@22.5.0
+   with:
     # The category of repository
     category: 
     # The full name of repository
-    repository: # optional
+    repository: Spotify Ambience
     # Post a comment to the PR with the result of the checks
     comment: # optional, default is true
     # Personal access token (PAT)
